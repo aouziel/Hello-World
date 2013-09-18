@@ -1,0 +1,36 @@
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+body{
+	font:16px/18px Helvetica, Arial, Verdana, Sans-serif;
+	color:#333;
+	background: #efefef;
+	margin:0;padding:0;
+}
+
+a{
+	color:#348AAF;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.container{
+	width:500px;
+	margin:0 auto;
+}
+
+.welcome{
+	margin-top:100px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.welcome h1, .welcome p{
+	text-align: center;
+}
